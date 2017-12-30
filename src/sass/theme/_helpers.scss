@@ -34,6 +34,26 @@
   color: $color-white !important;
 }
 
+.color-twitter {
+  color: $color-twitter !important;
+}
+
+.color-reddit {
+  color: $color-reddit !important;
+}
+
+.color-telegram {
+  color: $color-telegram !important;
+}
+
+.color-github {
+  color: $color-github !important;
+}
+
+.color-coinmarketcap {
+  color: $color-coinmarketcap !important;
+}
+
 .font-weight-bold {
   font-weight: 500;
 }
@@ -79,26 +99,4 @@ p.x-small {
   color: $color-dark-gray;
   font-size: 12px;
   line-height: 13px;
-}
-
-.visual-grouping {
-  margin-bottom: 65px;
-  text-align: center;
-
-  .visual {
-    color: $color-primary;
-    margin-bottom: 20px;
-  }
-
-  .content {
-    margin-left: 0 !important;
-
-    h3 {
-      margin-top: 0;
-    }
-
-    p {
-      font-weight: 300;
-    }
-  }
 }

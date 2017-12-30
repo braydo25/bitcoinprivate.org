@@ -21,7 +21,7 @@ h2 {
 }
 
 h3 {
-  color: $color-black;
+  color: $color-primary;
   font-size: 20px;
   line-height: 23px;
   font-weight: medium;
@@ -40,6 +40,15 @@ h5 {
   line-height: 19px;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+a {
+  color: $color-accent;
+
+  &:hover {
+    color: darken($color-accent, 10%);
+    text-decoration: none;
+  }
 }
 
 p {
@@ -63,11 +72,12 @@ p {
 
 .navbar {
   position: absolute;
-  top: 10px;
+  top: 0;
   left: 0;
   right: 0;
   background: transparent;
   border: none;
+  z-index: 99;
 
   .container-fluid {
     padding: 0 40px;
