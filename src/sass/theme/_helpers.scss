@@ -1,0 +1,104 @@
+/*
+ * Helpers
+ */
+
+.color-black {
+  color: $color-black !important;
+}
+
+.color-dark-gray {
+  color: $color-dark-gray !important;
+}
+
+.color-light-gray {
+  color: $color-light-gray !important;
+}
+
+.color-layout-gray {
+  color: $color-layout-gray !important;
+}
+
+.color-primary {
+  color: $color-primary !important;
+}
+
+.color-secondary {
+  color: $color-secondary !important;
+}
+
+.color-accent {
+  color: $color-accent !important;
+}
+
+.color-white {
+  color: $color-white !important;
+}
+
+.font-weight-bold {
+  font-weight: 500;
+}
+
+.font-weight-light {
+  font-weight: 300;
+}
+
+.btn-accent {
+  @extend .btn-primary;
+  color: $color-primary;
+  background: $color-accent;
+  border-color: $color-accent;
+
+  &:hover, &:active, &:focus {
+    color: $color-primary;
+    background: $color-white;
+    border-color: $color-accent;
+  }
+}
+
+p.x-large {
+  color: $color-black;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+p.large {
+  color: $color-black;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+p.small {
+  color: $color-dark-gray;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+p.x-small {
+  color: $color-dark-gray;
+  font-size: 12px;
+  line-height: 13px;
+}
+
+.visual-grouping {
+  margin-bottom: 65px;
+  text-align: center;
+
+  .visual {
+    color: $color-primary;
+    margin-bottom: 20px;
+  }
+
+  .content {
+    margin-left: 0 !important;
+
+    h3 {
+      margin-top: 0;
+    }
+
+    p {
+      font-weight: 300;
+    }
+  }
+}

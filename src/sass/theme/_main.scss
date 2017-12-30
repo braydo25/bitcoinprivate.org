@@ -1,0 +1,105 @@
+/*
+ * Main
+ */
+
+#hero {
+  background: url(/images/hero-background.jpg);
+  background-size: cover;
+  height: 98vh;
+  padding-top: $navbar-height + 60px;
+
+  img {
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 14px;
+  }
+
+  p {
+    margin-bottom: 18px;
+  }
+
+  h2 {
+    margin-bottom: 60px;
+  }
+}
+
+#why-btcp {
+  .heading {
+    margin: 0 0 60px 0;
+  }
+
+  .visual-grouping .content h3 {
+    color: $color-primary;
+  }
+
+  .whitepaper {
+    margin-bottom: 90px;
+  }
+}
+
+#get-btcp {
+  background: rgba(117, 160, 213, 0.25);
+
+  .primary-grouping .content {
+    margin-left: 230px;
+
+    p {
+      margin-bottom: 30px;
+    }
+  }
+
+  .secondary-grouping .content {
+    margin-left: 100px;
+  }
+
+  img {
+    border-radius: 50%;
+  }
+}
+
+#get-involved {
+  .primary-grouping .content {
+    margin-left: 160px;
+
+    p {
+      margin-bottom: 30px;
+    }
+  }
+
+  .secondary-grouping .content {
+    margin-left: 100px;
+  }
+}
+
+.heading {
+  margin: 90px 0;
+}
+
+#our-team {
+  background: $color-layout-gray;
+
+  .visual {
+    border-radius: 50%;
+  }
+
+  .primary-grouping .content {
+    margin-left: 150px;
+  }
+
+  .secondary-grouping .content {
+    margin-left: 115px;
+  }
+}
+
+#get-in-touch {
+
+}
+
+#footer {
+  padding: 65px 0;
+  background: $color-primary;
+}
