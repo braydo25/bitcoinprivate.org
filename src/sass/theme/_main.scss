@@ -2,10 +2,31 @@
  * Main
  */
 
+#logo {
+  height: 50px;
+
+  @media (max-width: $screen-sm-min) {
+    height: 35px;
+    margin-top: 5px;
+  }
+}
+
+.navbar-toggle {
+  background: $color-white;
+}
+
+#navbar-collapse {
+  @media (max-width: $screen-sm-min) {
+    background: $color-white;
+    border-radius: 10px;
+  }
+}
+
 #hero {
   background: url(/images/hero-background.jpg);
   background-size: cover;
   height: 98vh;
+  min-height: 600px;
   padding-top: $navbar-height + 60px;
 
   img {
@@ -75,6 +96,12 @@
       text-align: center;
     }
   }
+
+  @media (max-width: $screen-sm-min) {
+    .row > div:not(:last-child) {
+      margin-bottom: 40px;
+    }
+  }
 }
 
 #footer {
@@ -95,6 +122,10 @@
       color: $color-white;
       line-height: 48px;
       text-transform: uppercase;
+
+      &:hover {
+        color: darken($color-white, 15%);
+      }
     }
   }
 }

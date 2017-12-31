@@ -36,22 +36,42 @@
 
 .color-twitter {
   color: $color-twitter !important;
+
+  &:hover {
+    color: darken($color-twitter, 15%) !important;
+  }
 }
 
 .color-reddit {
   color: $color-reddit !important;
+
+  &:hover {
+    color: darken($color-reddit, 15%) !important;
+  }
 }
 
 .color-telegram {
   color: $color-telegram !important;
+
+  &:hover {
+    color: darken($color-telegram, 15%) !important;
+  }
 }
 
 .color-github {
   color: $color-github !important;
+
+  &:hover {
+    color: darken($color-github, 15%) !important;
+  }
 }
 
-.color-coinmarketcap {
-  color: $color-coinmarketcap !important;
+.color-discord {
+  color: $color-discord !important;
+
+  &:hover {
+    color: darken($color-discord, 15%) !important;
+  }
 }
 
 .font-weight-bold {
